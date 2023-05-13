@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Rusted Spoon - Fine Dining Restaurant</title>
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Reservations</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<h1>The Rusted Spoon</h1>
+		<h2>Fine Dining Restaurant</h2>
+		<img src="https://i.pinimg.com/originals/6c/12/21/6c122143221bb6d89d118afb7774bd52.jpg" alt="The Rusty Spoon logo">
+	</header>
+	<main>
+		<section class="hero">
+			<h2>Welcome to The Rusty Spoon</h2>
+			<p>Discover the best cuisine with us in an unforgettable atmosphere.</p>
+			<a href="#menu" class="btn">View Our Menu</a>
+		</section>
+		<section class="featured-dishes">
+			<h2>Featured Dishes</h2>
+			<div class="dishes-container">
+				<div class="dish">
+					<img src="C:\Users\likhitha\Desktop\dish1.jpg" alt="Grilled salmon with roasted vegetables">
+					<h3>Grilled Salmon with Roasted Vegetables</h3>
+					<p>Atlantic salmon fillet, grilled to perfection and served with roasted vegetables and a lemon-butter sauce.</p>
+					<span class="price">$24.99</span>
+				</div>
+				<div class="dish">
+					<img src="C:\Users\likhitha\Desktop\dish2.jpg" alt="Beef tenderloin with red wine sauce">
+					<h3>Beef Tenderloin with Red Wine Sauce</h3>
+					<p>Tender and juicy beef tenderloin, cooked to your liking and served with red wine sauce and mashed potatoes.</p>
+					<span class="price">$29.99</span>
+				</div>
+				<div class="dish">
+					<img src="C:\Users\likhitha\Desktop\dish3.jpg" alt="Mediterranean salad with grilled chicken">
+					<h3>Mediterranean Salad with Grilled Chicken</h3>
+					<p>Fresh greens, cherry tomatoes, cucumbers, olives, and feta cheese, topped with grilled chicken and served with a balsamic vinaigrette.</p>
+					<span class="price">$16.99</span>
+				</div>
+			</div>
+		</section>
+		<section id="menu" class="menu">
+			<h2>Our Menu</h2>
+			<p>At The Rusty Spoon, we offer a wide variety of dishes to suit every taste. Whether you're in the mood for seafood, steak, or vegetarian options, we've got you covered.</p>
+			<h3>Starters</h3>
+			<ul>
+				<li><span class="menu-item">Creamy Lobster Bisque</span><span class="price">$8.99</span></li>
+				<li><span class="menu-item">Roasted Garlic Bruschetta</span><span class="price">$6.99</span></li>
+				<li><span class="menu-item">Crispy Calamari</span><span class="
+			price">$10.99</span></li>
+		</ul>
+		<h3>Main Courses</h3>
+		<ul>
+			<li><span class="menu-item">Pan-Seared Scallops</span><span class="price">$26.99</span></li>
+			<li><span class="menu-item">Filet Mignon</span><span class="price">$34.99</span></li>
+			<li><span class="menu-item">Vegetable Risotto</span><span class="price">$18.99</span></li>
+			<li><span class="menu-item">Lobster Linguine</span><span class="price">$29.99</span></li>
+		</ul>
+		<h3>Desserts</h3>
+		<ul>
+			<li><span class="menu-item">Crème Brûlée</span><span class="price">$7.99</span></li>
+			<li><span class="menu-item">Chocolate Lava Cake</span><span class="price">$8.99</span></li>
+			<li><span class="menu-item">Tiramisu</span><span class="price">$7.99</span></li>
+		</ul>
+		<a href="#reservation" class="btn">Make a Reservation</a>
+	</section>
+	<section id="reservation" class="reservation">
+		<h2>Make a Reservation</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="date">Date:</label>
+			<input type="date" id="date" name="date" required>
+			<label for="time">Time:</label>
+			<input type="time" id="time" name="time" required>
+			<label for="guests">Number of Guests:</label>
+			<input type="number" id="guests" name="guests" min="1" max="10" required>
+			<button type="submit">Submit</button>
+		</form>
+	</section>
+	<section class="about">
+		<h2>About Us</h2>
+		<p>The Rusty Spoon is a fine dining restaurant located in the heart of the city. Our chef, John Smith, has over 20 years of experience in the culinary industry and is dedicated to using only the freshest and highest quality ingredients in all of our dishes. Our menu is updated regularly to incorporate seasonal ingredients and new culinary trends.</p>
+		<p>We also offer a carefully curated wine list, featuring both local and international wines, as well as a selection of signature cocktails and craft beers.</p>
+		<p>Whether you're celebrating a special occasion or simply looking for a delicious meal in a welcoming atmosphere, The Rusty Spoon is the perfect choice.</p>
+	</section>
+	<section class="contact">
+		<h2>Contact Us</h2>
+		<p>Have a question or feedback? Contact us below.</p>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="message">Message:</label>
+			<textarea id="message" 
+name="message" required></textarea>
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 The Rusty Spoon. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>

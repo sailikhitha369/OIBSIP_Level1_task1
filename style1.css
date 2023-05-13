@@ -1,0 +1,255 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Set the header styles */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Set the hero section styles */
+.hero {
+  padding: 100px;
+  text-align: center;
+  background-image: url("hero-background.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.btn {
+ background-color: #E59866;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Set the featured dishes section styles */
+.featured-dishes {
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.dishes-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dish {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.dish img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.dish h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.dish p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Set the menu section styles */
+.menu {
+  padding: 5px;
+  text-align: center;
+}
+
+.menu h3 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.menu ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  flex-grow: 1;
+}
+
+/* Set the reservation section styles */
+.reservation {
+  padding: 50px;
+  text-align: center;
+}
+
+.reservation h2 {
+  margin-bottom: 30px;
+}
+
+.reservation label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.reservation input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Set the button styles */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+/* Contact Us Section */
+.contact-us {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.contact-us h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-us form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-us form input[type=text], 
+.contact-us form input[type=email], 
+.contact-us form textarea {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-us form textarea {
+  height: 150px;
+}
+
+.contact-us form input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer ul li a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
